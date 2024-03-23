@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">wordle</string>
+    <string name="to_game">Start game</string>
+    <string name="you_win">You WIN</string>
+    <string name="you_lose">You LOST</string>
+    <string name="invalid_word">Word doesn\'t exists</string>
+    <string name="del">DEL</string>
+    <string name="restart">Restart</string>
+    <string name="enter">ENTER</string>
+    <string name="wordle">WORDLE</string>
+</resources>

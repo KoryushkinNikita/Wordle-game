@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    app:startDestination="@id/initFragment">
+
+    <fragment
+        android:id="@+id/initFragment"
+        android:name="com.example.android.wordle.InitFragment"
+        android:label="InitFragment" >
+        <action
+            android:id="@+id/action_initFragment_to_wordleFragment"
+            app:destination="@id/wordleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/wordleFragment"
+        android:name="com.example.android.wordle.WordleFragment"
+        android:label="WordleFragment" />
+</navigation>
